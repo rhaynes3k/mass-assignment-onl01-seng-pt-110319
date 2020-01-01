@@ -6,20 +6,7 @@ class Person
   
 #end
 
-def initialize(name:, 
-weight:, 
-wrist_size:, 
-birthday:, 
-handed:, 
-glove_size:, 
-hair_color:, 
-complexion:, 
-pant_length:, 
-eye_color:, 
-t_shirt_size:, 
-pant_width:, 
-height: 
-)
+def initialize(attributes)
 @name=name
 @weight=weight
 @wrist_size=wrist_size
