@@ -8,7 +8,7 @@ class Person
 
 def initialize(attributes)
   attributes.each {|key, value| self.send(("#{key}="), value)}
-@name=nam
+@name=name
 @weight=weight
 @wrist_size=wrist_size
 @birthday=birthday
