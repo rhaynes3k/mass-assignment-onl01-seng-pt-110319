@@ -7,6 +7,7 @@ class Person
 #end
 
 def initialize(attributes)
+  
 @name=name
 @weight=weight
 @wrist_size=wrist_size
