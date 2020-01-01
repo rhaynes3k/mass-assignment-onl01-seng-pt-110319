@@ -1,14 +1,10 @@
 require 'pry'
 class Person
-  attr_accessor :name, :birthday, :hair_color, :eye_color, :height, :weight, :handed, :complexion, :t_shirt_size, 
-:wrist_size, :glove_size, :pant_length, :pant_width
-
-#def intialize(attributes)
-  
-#end
+  attr_accessor :name, :birthday, :hair_color, :eye_color, :height, :weight, :handed, :complexio,:t_shirt_sie,:wrist_size, :glove_size, :pant_length, :pant_width
 
 def initialize(attributes)
   attributes.each {|key, value| self.send(("#{key}="), value)}
+  
 @name=name
 @weight=weight
 @wrist_size=wrist_size
@@ -22,8 +18,6 @@ def initialize(attributes)
 @t_shirt_size=t_shirt_size
 @pant_width=pant_width
 @height=height
-
-binding.pry
 end
 
 end
